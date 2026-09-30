@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleExecutable</key>
+    <string>Anooki</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.vier.anooki.saver</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Anooki</string>
+    <key>CFBundlePackageType</key>
+    <string>BNDL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>8.0</string>
+    <key>CFBundleVersion</key>
+    <string>8.0</string>
+    <key>NSPrincipalClass</key>
+    <string>AnookiSaverView</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>11.0</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Anooki characters © their original authors. Modern shell rebuilt 2026.</string>
+</dict>
+</plist>

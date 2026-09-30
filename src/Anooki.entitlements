@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!--
+        Hardened runtime entitlements for the Anooki screensaver bundle.
+
+        WKWebView spawns its own WebContent helper that handles WASM JIT
+        compilation in its own sandboxed process, so the saver itself does
+        NOT need allow-jit. We keep the entitlement set minimal — broader
+        entitlements make notarization stricter and the bundle riskier.
+
+        If a future Ruffle build ever requires loading from a remote origin
+        (e.g. a CDN fallback), uncomment com.apple.security.network.client.
+    -->
+    <key>com.apple.security.cs.allow-unsigned-executable-memory</key>
+    <false/>
+    <key>com.apple.security.cs.disable-library-validation</key>
+    <false/>
+    <!--
+    <key>com.apple.security.network.client</key>
+    <true/>
+    -->
+</dict>
+</plist>

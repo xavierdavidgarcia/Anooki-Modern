@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppID</key>
+	<data>
+	IpeYTyDDzxui2vKHZ7u6pHfFBXxAhLXQ0llxsERg2ii4Ncw/IAFuA6b9
+	</data>
+	<key>ExpID</key>
+	<string>51cdd6302093d6dfa46df8c88975efc5
+</string>
+	<key>JxpID</key>
+	<string>410bf37eb392b02cf0aa7924f576ec93
+</string>
+	<key>expirationDate</key>
+	<date>2013-02-12T09:15:30Z</date>
+	<key>expirationMode</key>
+	<integer>0</integer>
+	<key>expirationTimeInDays</key>
+	<integer>20</integer>
+	<key>quitOnKeyDowns</key>
+	<true/>
+	<key>quitOnMouseEvents</key>
+	<false/>
+</dict>
+</plist>
